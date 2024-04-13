@@ -1,0 +1,17 @@
+<h1> Hello World!!!!</h1>
+
+<p1> I am playing with flask in Mac </p1>
+<br></br>
+<p3> I am {{firstName}}</p3>
+<br></br>
+<p2> isn't it cool </p2>
+<br></br>
+<p>{{stuff|safe}}</p>
+
+{% for pizza in favoritePizza %}
+    {%if pizza==41%}
+        {{pizza+100}} <br/>
+    {% else %}
+        {{pizza}}<br/>
+    {%endif%}
+{% endfor %}
